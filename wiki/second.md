@@ -1,3 +1,3 @@
 # Second
 
-This is a second file that could link to [[readme]]
+This is a second file that could link to [[Example Page]]
