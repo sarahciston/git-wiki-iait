@@ -3,8 +3,7 @@ remote_theme: Drassil/git-wiki-theme@master
 title: "Intersectional AI Toolkit"
 # (string) if you've installed your wiki in subfolder, you must change this configuration
 # with your folder name, otherwise leave it empty
-# baseurl: "/git-wiki-iait"
-baseurl: ""
+baseurl: "/git-wiki-iait"
 # (string) Description of your wiki
 description: 
 # (boolean) Enable/disable wiki page list in sidebar
