@@ -1,1 +1,0 @@
-This is a second page from the github wiki. 
