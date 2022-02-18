@@ -1,4 +1,4 @@
-- name: Bi-directional Wiki Sync Action
+- name: BidirectionalWikiSyncAction
   # You may pin to the exact commit or the version.
   # uses: newrelic/wiki-sync-action@b31d9caac5c33a4395d8901e0aa4bba7cd701ef5
   uses: newrelic/wiki-sync-action@v1.0.0
