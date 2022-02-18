@@ -1,0 +1,19 @@
+- name: "Bi-directional Wiki Sync Action"
+  # You may pin to the exact commit or the version.
+  # uses: newrelic/wiki-sync-action@b31d9caac5c33a4395d8901e0aa4bba7cd701ef5
+  uses: "newrelic/wiki-sync-action@v1.0.0"
+  with:
+    # Source directory/location of file sync (ex: `docs`).
+    source: "_wiki"
+    # Destination directory/location for file sync (ex: `wiki`).
+    destination: "wiki"
+    # Github personal access token with at least 'repo' authorization.
+    token: ${{ secrets.GITHUB_TOKEN }}
+    # Author name to use for committing to repository. Default: `github.actor`
+    gitAuthorName: ${{ github.actor }} # optional, default is ${{ github.actor }}
+    # Author name to use for committing to repository. Default: `github.actor@users.noreply.github.com
+    gitAuthorEmail: # optional
+    # Default branch to commit to. Default: `master`
+    branch: "main" # optional, default is master
+    # Message for committing files to repository.
+    commitMessage: # optional
