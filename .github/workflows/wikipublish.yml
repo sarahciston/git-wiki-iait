@@ -8,7 +8,7 @@
     # Destination directory/location for file sync (ex: `wiki`).
     destination: "wiki"
     # Github personal access token with at least 'repo' authorization.
-    token: "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"
+    token: ${ secrets.GITHUB_TOKEN )
     # Author name to use for committing to repository. Default: `github.actor`
     gitAuthorName: ${{ github.actor }} # optional, default is ${{ github.actor }}
     # Author name to use for committing to repository. Default: `github.actor@users.noreply.github.com
