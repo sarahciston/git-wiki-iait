@@ -4,16 +4,16 @@
   uses: newrelic/wiki-sync-action@v1.0.0
   with:
     # Source directory/location of file sync (ex: `docs`).
-    source: 
+    source: "_wiki"
     # Destination directory/location for file sync (ex: `wiki`).
-    destination:
+    destination: "wiki"
     # Github personal access token with at least 'repo' authorization.
-    token: `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`
+    token: "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"
     # Author name to use for committing to repository. Default: `github.actor`
     gitAuthorName: ${{ github.actor }} # optional, default is ${{ github.actor }}
     # Author name to use for committing to repository. Default: `github.actor@users.noreply.github.com
     gitAuthorEmail: # optional
     # Default branch to commit to. Default: `master`
-    branch: `main` # optional, default is master
+    branch: "main" # optional, default is master
     # Message for committing files to repository.
     commitMessage: # optional
