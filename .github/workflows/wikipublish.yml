@@ -6,7 +6,7 @@
     # Source directory/location of file sync (ex: `docs`).
     source: 
     # Destination directory/location for file sync (ex: `wiki`).
-    destination: `wiki`
+    destination:
     # Github personal access token with at least 'repo' authorization.
     token: `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`
     # Author name to use for committing to repository. Default: `github.actor`
